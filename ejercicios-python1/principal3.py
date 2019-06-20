@@ -5,8 +5,11 @@
 
 lista = ["Loja", "Cuenca"]
 lista2 = ["Loja", "Azuay"]
+## agragando más valores a la lista
+lista.append("zamora")
 
 print("Imprimir lista ")
+## for mejorado
 for l in lista:
     print(l)
 

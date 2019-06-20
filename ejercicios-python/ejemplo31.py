@@ -27,6 +27,7 @@ try:
     promedio = int(nota1) / int(nota2)
     print("Los datos ingresados son: \nNombre: %s\nNota1: %d \nNota2: %d\
             \nPromedio: %f" % (nombre, int(nota1), int(nota2), promedio))
+#manejo de escespciones
 except TypeError as ex:
     print("Algo paso en el programa (TypeError)\n")
     print(ex)
